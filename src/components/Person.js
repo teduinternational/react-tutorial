@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Person = (props) => {
   return (
@@ -9,11 +9,4 @@ const Person = (props) => {
   );
 };
 
-// class Person extends Component {
-//   render() {
-//     return (
-//       <p>This is a {this.props.name}. I'm {this.props.age} year old.</p>
-//     );
-//   }
-// }
 export default Person;
